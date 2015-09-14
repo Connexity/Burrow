@@ -26,6 +26,7 @@ import (
 type BurrowConfig struct {
 	General struct {
 		LogDir         string `gcfg:"logdir"`
+		PIDDir		   string `gcfg:"piddir"`
 		LogConfig      string `gcfg:"logconfig"`
 		PIDFile        string `gcfg:"pidfile"`
 		ClientID       string `gcfg:"client-id"`
